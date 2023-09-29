@@ -3,3 +3,21 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+.abacus-logo-size {
+    font-size: 1.375vw;
+}
+
+.abacus-banner-title {
+    font-size: 3vw;
+}
+
+.abacus-banner-description {
+    font-size: 1vw;
+}
+
+.abacus-btn-primary {
+    background-color: #FFFFFF;
+    color: #3F87F5;
+    padding: 10px 44px;
+}
