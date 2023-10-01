@@ -38,6 +38,57 @@ body {
     font-size: 14px;
 }
 
+.packages {
+    color: #0A0826;
+    font-size: 38px;
+}
+
+.package-check-mark {
+    color: #5243C2;
+    background-color: rgba(82, 67, 194, 0.1037);
+    width: 20px;
+    height: 20px;
+}
+
+.package-title,
+.package-subtitle,
+.package-description {
+    color: #848199;
+}
+
+.special-package-title,
+.special-package-subtitle,
+.special-package-description {
+    color: #FFFFFF;
+}
+
+.package-title,
+.special-package-title {
+    font-size: 36px;
+}
+
+
+.package-subtitle,
+.special-package-subtitle {
+    font-size: 20px;
+}
+
+.package-description,
+.special-package-description {
+    font-size: 15px;
+}
+
+.special-package {
+    background-color: #3F87F5;
+    color: #FFFFFF;
+}
+
+.package-button {
+    color: #3F87F5;
+    background-color: #f5f1f4;
+    font-size: 15px;
+}
+
 /* Responsive */
 
 @media screen and (max-width:576px) {
@@ -57,5 +108,13 @@ body {
 @media screen and (min-width:577px) and (max-width:768px) {
     .device-width {
         width: 100%;
+    }
+}
+
+@media screen and (min-width:1201px) {
+
+    .package-description,
+    .special-package-description {
+        font-size: 12px;
     }
 }
